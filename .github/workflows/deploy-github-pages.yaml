@@ -1,0 +1,26 @@
+on: 
+  push:
+    branches:
+      - 'master'
+
+name: Deploy to gh-pages
+
+jobs:
+  docker-build:
+    name: Build frontend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Build frontend
+        run: |
+          pushd src/frontend
+          npm install
+          npm run build
+          popd
+      - name: Deploy frontend
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: src/frontend/dist
+          cname: thestorageguy.2ndlayer.eu
