@@ -1,8 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Buefy from 'buefy'
-import 'buefy/dist/buefy.css'
-import 'bulma/bulma.sass'
+import './assets/sass/style.scss'
 import App from './App.vue'
 
 Vue.use(VueRouter)

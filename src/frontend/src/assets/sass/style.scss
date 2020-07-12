@@ -1,0 +1,12 @@
+@import "~bulma/sass/utilities/_all";
+
+// Set your colors
+$primary: #83be06;
+$orange: #f27930;
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
