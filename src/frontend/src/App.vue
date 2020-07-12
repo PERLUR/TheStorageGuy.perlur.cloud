@@ -31,7 +31,7 @@
       <div class="columns">
         <div class="column is-one-half">
         </div>
-        <div class="column has-text-centered is-one-fifth">
+        <div class="column has-text-centered is-one-third">
           <p>
               2020 © <strong>The Storage Guy - PERLUR Group</strong><br>
               All rights reserved.
