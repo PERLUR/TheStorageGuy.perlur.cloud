@@ -1,5 +1,8 @@
 export default {
     target: 'static', // default: 'server'
+    modules: [
+        'nuxt-buefy'
+    ],
     build: {
       babel: {
         presets({ isServer }) {
