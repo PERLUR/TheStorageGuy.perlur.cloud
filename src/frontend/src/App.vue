@@ -71,6 +71,15 @@ export default {
   flex-direction: column;
 }
 
+.navbar {
+  padding-bottom: 0px;
+}
+
+.navbar-item.logo {
+  max-width: 20vw;
+  padding: 0px;
+}
+
 #site-content {
   padding: 1rem 2rem;
   flex: auto;
