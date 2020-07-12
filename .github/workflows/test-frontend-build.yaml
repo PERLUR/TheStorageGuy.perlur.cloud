@@ -1,0 +1,24 @@
+on:
+  push:
+    branches:
+        - '*'
+        - '!master'
+  pull_request:
+    branches:
+        - 'master'
+
+name: Test frontend build
+
+jobs:
+  frontend-build:
+    name: Build frontend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Build frontend
+        run: |
+          pushd src/frontend
+          npm install
+          npm run generate
+          popd
