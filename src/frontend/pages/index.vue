@@ -8,7 +8,7 @@
           <div class="navbar-end">
             <div class="navbar-end">
               <span><a class="navbar-item is-hoverable title is-4" href="/overview/">Overview</a></span>
-              <span><a class="navbar-item is-hoverable title is-4" href="/about-the-storage-guy/">About The Storage Guy</a></span>
+              <span><a class="navbar-item is-hoverable title is-4" href="/about-storage-guy/">About Storage Guy</a></span>
               <a class="navbar-item" href="https://www.facebook.com/2ndlayer.eu/">
                 <i class="fab fa-facebook-square title"></i>
               </a>
