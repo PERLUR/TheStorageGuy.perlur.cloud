@@ -6,6 +6,7 @@
 export default {
   head () {
     return {
+      title: 'The Storage Guy',
       link: [
         {
           rel: 'stylesheet',
