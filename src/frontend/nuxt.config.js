@@ -1,4 +1,5 @@
 export default {
+    target: 'static', // default: 'server'
     build: {
       babel: {
         presets({ isServer }) {
