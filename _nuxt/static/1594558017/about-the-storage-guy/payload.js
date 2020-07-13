@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/about-the-storage-guy", {data:[],fetch:[],mutations:void 0});
