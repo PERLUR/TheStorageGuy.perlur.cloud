@@ -27,7 +27,7 @@
     </header>
     <div id="site-content">
     </div>
-    <footer class="footer">
+    <footer class="footer has-background-secondary">
       <div class="columns">
         <div class="column is-one-half">
         </div>
