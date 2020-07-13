@@ -21,6 +21,7 @@
     "node-sass": "^4.14.1",
     "nuxt": "latest",
     "nuxt-buefy": "^0.3.31",
+    "@nuxtjs/sitemap": "2.4.0",
     "sass-loader": "^9.0.0",
     "vue": "^2.6.11",
     "vue-router": "^3.3.2",

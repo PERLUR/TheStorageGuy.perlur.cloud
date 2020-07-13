@@ -4,8 +4,13 @@ export default {
     '~assets/scss/main.scss'
   ],
   modules: [
-    'nuxt-buefy'
+    'nuxt-buefy',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://thestorageguy.2ndlayer.eu',
+    gzip: true,
+  },
   build: {
     babel: {
       presets({ isServer }) {
