@@ -19,9 +19,12 @@
       <div class="column"></div>
       <div class="column has-text-centered is-one-third">
         <p>
-            2020 © <strong>The Storage Guy - PERLUR Group</strong><br>
+            2020 © <strong>The Storage Guy - <a href="https://www.perlur.cloud/">PERLUR Group</a></strong><br>
             All rights reserved.
         </p>
+        <figure class="image">
+          <img class="logo" :src="TheStorageGuyColorSVG" />
+        </figure>
       </div>
     </div>
   </footer>
@@ -33,7 +36,8 @@ export default {
   data() {
     return {
       PERLURLogoSquareWhiteSVG: require('~/assets/images/PERLUR_Group_Logo_White.svg'),
-      LayerLogoSquareWhiteSVG: require('~/assets/images/2nd_Layer_Logo_Square_White.svg')
+      LayerLogoSquareWhiteSVG: require('~/assets/images/2nd_Layer_Logo_Square_White.svg'),
+      TheStorageGuyColorSVG: require('~/assets/images/The_Storage_Guy_Square_Transparent_Logo.svg')
     }
   }
 };
