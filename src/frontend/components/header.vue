@@ -18,6 +18,17 @@
   </header>
 </template>
 
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      TheStorageGuyLogoSVG: require('~/assets/The_Storage_Guy_Website_Logo.svg')
+    }
+  }
+};
+</script>
+
 <style>
 .navbar {
   padding-bottom: 0px;
