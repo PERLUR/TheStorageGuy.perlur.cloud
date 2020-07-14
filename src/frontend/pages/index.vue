@@ -42,8 +42,6 @@
                 <img class="logo" :src="PERLURLogoSquareWhiteSVG" />
               </figure>
             </div>
-            <div class="column is-one-third">
-            </div>
           </div>
         </div>
         <div class="column"></div>
