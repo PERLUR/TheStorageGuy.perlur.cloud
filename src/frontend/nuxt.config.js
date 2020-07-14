@@ -7,7 +7,10 @@ export default {
   modules: [
     'nuxt-buefy',
     '@nuxtjs/sitemap',
-    '@nuxt/components'
+    '@nuxt/components',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-113467444-3'
+    }]
   ],
   sitemap: {
     hostname: 'https://thestorageguy.2ndlayer.eu',
