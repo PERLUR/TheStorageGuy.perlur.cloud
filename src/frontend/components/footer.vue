@@ -19,7 +19,7 @@
       <div class="column"></div>
       <div class="column has-text-centered is-one-third">
         <p>
-            2020 © <strong>The Storage Guy - <a href="https://www.perlur.cloud/">PERLUR Group</a></strong><br>
+            2020 © <strong>The Storage Guy – <a href="https://www.perlur.cloud/">PERLUR Group</a></strong><br>
             All rights reserved.
         </p>
         <figure class="image">
