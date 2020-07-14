@@ -37,7 +37,7 @@ export default {
     return {
       PERLURLogoSquareWhiteSVG: require('~/assets/images/PERLUR_Group_Logo_White.svg'),
       LayerLogoSquareWhiteSVG: require('~/assets/images/2nd_Layer_Logo_Square_White.svg'),
-      TheStorageGuyColorSVG: require('~/assets/images/The_Storage_Guy_Square_Transparent_Logo.svg')
+      TheStorageGuyColorSVG: require('~/assets/images/The_Storage_Guy_No_Border_Transparent_Logo.svg')
     }
   }
 };
