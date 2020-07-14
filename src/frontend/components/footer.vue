@@ -50,8 +50,5 @@ export default {
 <style>
 footer.footer {
   padding-bottom: 1rem;
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
 }
 </style>

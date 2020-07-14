@@ -2,10 +2,12 @@
   <header>
     <nav class="navbar is-spaced" role="navigation" aria-label="dropdown main navigation">
       <div class="navbar-brand">
-        <img class="navbar-item logo" :src="TheStorageGuyLogoSVG" />
+        <a href="/">
+          <img class="navbar-item logo" :src="TheStorageGuyLogoSVG" />
+        </a>
       </div>
       <div class="navbar-end">
-        <span><a class="navbar-item is-hoverable title is-4" href="/overview/">Overview</a></span>
+        <span><a class="navbar-item is-hoverable title is-4" href="/">Overview</a></span>
         <span><a class="navbar-item is-hoverable title is-4" href="/about-storage-guy/">About Storage Guy</a></span>
         <a class="navbar-item" href="https://twitter.com/LiberalMark">
         <i class="fab fa-twitter-square title"></i>
