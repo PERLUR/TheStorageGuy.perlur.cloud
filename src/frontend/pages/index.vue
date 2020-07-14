@@ -31,10 +31,22 @@
       <div class="columns">
         <div class="column is-one-half">
           <h2 class="title has-text-white is-2">Partners</h2>
-          <figure class="image">
-            <img class="logo" :src="LayerLogoSquareWhiteSVG" />
-          </figure>
+          <div class="columns is-variable is-8">
+            <div class="column">
+              <figure class="image">
+                <img class="logo" :src="LayerLogoSquareWhiteSVG" />
+              </figure>
+            </div>
+            <div class="column">
+              <figure class="image">
+                <img class="logo" :src="PERLURLogoSquareWhiteSVG" />
+              </figure>
+            </div>
+            <div class="column is-one-third">
+            </div>
+          </div>
         </div>
+        <div class="column"></div>
         <div class="column has-text-centered is-one-third">
           <p>
               2020 © <strong>The Storage Guy - PERLUR Group</strong><br>
@@ -52,6 +64,7 @@ export default {
   data() {
     return {
       LayerLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg'),
+      PERLURLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg'), // Replace with real PERLUR logo
       TheStorageGuyLogoSVG: require('~/assets/The_Storage_Guy_Website_Logo.svg')
     }
   }
