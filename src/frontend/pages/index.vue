@@ -30,6 +30,10 @@
     <footer class="footer has-background-secondary">
       <div class="columns">
         <div class="column is-one-half">
+          <h2 class="title has-text-white is-2">Partners</h2>
+          <figure class="image">
+            <img class="logo" :src="LayerLogoSquareWhiteSVG" />
+          </figure>
         </div>
         <div class="column has-text-centered is-one-third">
           <p>
@@ -47,6 +51,7 @@ export default {
   name: 'App',
   data() {
     return {
+      LayerLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg'),
       TheStorageGuyLogoSVG: require('~/assets/The_Storage_Guy_Website_Logo.svg')
     }
   }
