@@ -6,12 +6,12 @@
         <div class="columns is-variable is-8">
           <div class="column">
             <figure class="image">
-              <img class="logo" :src="LayerLogoSquareWhiteSVG" />
+              <img class="logo" :src="PERLURLogoSquareWhiteSVG" />
             </figure>
           </div>
           <div class="column">
             <figure class="image">
-              <img class="logo" :src="PERLURLogoSquareWhiteSVG" />
+              <img class="logo" :src="LayerLogoSquareWhiteSVG" />
             </figure>
           </div>
         </div>
@@ -32,7 +32,8 @@ export default {
   name: 'App',
   data() {
     return {
-      TheStorageGuyLogoSVG: require('~/assets/The_Storage_Guy_Website_Logo.svg')
+      PERLURLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg'), // Replace with real PERLUR logo
+      LayerLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg')
     }
   }
 };
@@ -41,5 +42,8 @@ export default {
 <style>
 footer.footer {
   padding-bottom: 1rem;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
 </style>
