@@ -1,58 +1,5 @@
 <template>
-  <div id="app">
-    <header>
-        <nav class="navbar is-spaced" role="navigation" aria-label="dropdown main navigation">
-          <div class="navbar-brand">
-            <img class="navbar-item logo" :src="TheStorageGuyLogoSVG" />
-          </div>
-          <div class="navbar-end">
-            <div class="navbar-end">
-              <span><a class="navbar-item is-hoverable title is-4" href="/overview/">Overview</a></span>
-              <span><a class="navbar-item is-hoverable title is-4" href="/about-storage-guy/">About Storage Guy</a></span>
-              <a class="navbar-item" href="https://www.facebook.com/2ndlayer.eu/">
-                <i class="fab fa-facebook-square title"></i>
-              </a>
-              <a class="navbar-item" href="https://www.linkedin.com/company/2ndlayer/">
-                <i class="fab fa-linkedin title"></i>
-              </a>
-              <a class="navbar-item" href="https://github.com/2nd-Layer">
-                <i class="fab fa-github-square title"></i>
-              </a>
-              <a class="navbar-item" href="https://www.youtube.com/channel/UCp-grc_OkwssH4XcSU7Lo/">
-                <i class="fab fa-youtube-square title"></i>
-              </a>
-            </div>
-          </div>
-        </nav>
-    </header>
-    <div id="site-content">
-    </div>
-    <footer class="footer has-background-secondary">
-      <div class="columns">
-        <div class="column is-one-half">
-          <h2 class="title has-text-white is-2">Partners</h2>
-          <div class="columns is-variable is-8">
-            <div class="column">
-              <figure class="image">
-                <img class="logo" :src="LayerLogoSquareWhiteSVG" />
-              </figure>
-            </div>
-            <div class="column">
-              <figure class="image">
-                <img class="logo" :src="PERLURLogoSquareWhiteSVG" />
-              </figure>
-            </div>
-          </div>
-        </div>
-        <div class="column"></div>
-        <div class="column has-text-centered is-one-third">
-          <p>
-              2020 © <strong>The Storage Guy - PERLUR Group</strong><br>
-              All rights reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
+  <div id="site-content">
   </div>
 </template>
 
@@ -61,9 +8,8 @@ export default {
   name: 'App',
   data() {
     return {
-      LayerLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg'),
       PERLURLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg'), // Replace with real PERLUR logo
-      TheStorageGuyLogoSVG: require('~/assets/The_Storage_Guy_Website_Logo.svg')
+      LayerLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg')
     }
   }
 };
