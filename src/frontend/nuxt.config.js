@@ -1,11 +1,13 @@
 export default {
   target: 'static', // default: 'server'
+  components: true,
   css: [
     '~assets/scss/main.scss'
   ],
   modules: [
     'nuxt-buefy',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxt/components'
   ],
   sitemap: {
     hostname: 'https://thestorageguy.2ndlayer.eu',
