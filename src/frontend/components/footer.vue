@@ -32,8 +32,8 @@ export default {
   name: 'App',
   data() {
     return {
-      PERLURLogoSquareWhiteSVG: require('~/assets/PERLUR_Group_Logo_White.svg'),
-      LayerLogoSquareWhiteSVG: require('~/assets/2nd_Layer_Logo_Square_White.svg')
+      PERLURLogoSquareWhiteSVG: require('~/assets/images/PERLUR_Group_Logo_White.svg'),
+      LayerLogoSquareWhiteSVG: require('~/assets/images/2nd_Layer_Logo_Square_White.svg')
     }
   }
 };
