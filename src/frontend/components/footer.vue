@@ -6,12 +6,16 @@
         <div class="columns is-variable is-8">
           <div class="column">
             <figure class="image">
-              <img class="logo" :src="PERLURLogoSquareWhiteSVG" />
+              <a href="https://www.perlur.cloud/">
+                <img class="logo" :src="PERLURLogoSquareWhiteSVG" />
+              </a>
             </figure>
           </div>
           <div class="column">
             <figure class="image">
-              <img class="logo" :src="LayerLogoSquareWhiteSVG" />
+              <a href="https://www.2ndlayer.eu/">
+                <img class="logo" :src="LayerLogoSquareWhiteSVG" />
+              </a>
             </figure>
           </div>
         </div>
