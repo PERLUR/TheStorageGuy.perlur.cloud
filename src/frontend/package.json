@@ -19,7 +19,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.1.2",
     "node-sass": "^4.14.1",
-    "nuxt": "latest",
+    "nuxt": "^2.13.3",
     "nuxt-buefy": "^0.3.31",
     "@nuxtjs/sitemap": "2.4.0",
     "sass-loader": "^9.0.0",
