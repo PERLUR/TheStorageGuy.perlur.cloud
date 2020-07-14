@@ -1,5 +1,5 @@
 <template>
-  <div class="app">
+  <div id="app">
     <Header/>
     <nuxt/>
     <Footer/>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style>
-body {
+#site {
   display: flex;
   min-height: 100vh;
   flex-direction: column;

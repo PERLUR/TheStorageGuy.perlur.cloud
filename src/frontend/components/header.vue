@@ -23,7 +23,7 @@ export default {
   name: 'App',
   data() {
     return {
-      TheStorageGuyLogoSVG: require('~/assets/The_Storage_Guy_Website_Logo.svg')
+      TheStorageGuyLogoSVG: require('~/assets/images/The_Storage_Guy_Website_Logo.svg')
     }
   }
 };
