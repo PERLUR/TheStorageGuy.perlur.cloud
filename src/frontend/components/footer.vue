@@ -2,7 +2,7 @@
   <footer class="footer has-background-secondary">
     <div class="columns">
       <div class="column is-one-half">
-        <h2 class="title has-text-white is-2">Partners</h2>
+        <h2 class="title has-text-centered has-text-white is-2">Partners</h2>
         <div class="columns is-variable is-8">
           <div class="column">
             <figure class="image">
