@@ -49,7 +49,7 @@ export default {
   flex: auto;
 }
 
-footer {
+footer.footer {
   padding-bottom: 1rem;
 }
 </style>
