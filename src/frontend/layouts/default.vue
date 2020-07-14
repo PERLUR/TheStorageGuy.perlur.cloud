@@ -48,4 +48,8 @@ export default {
   padding: 1rem 2rem;
   flex: auto;
 }
+
+footer {
+  padding-bottom: 1rem;
+}
 </style>
