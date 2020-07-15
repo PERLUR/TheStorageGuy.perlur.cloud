@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/about-storage-guy/productivity-equipment", {data:[{}],fetch:[],mutations:void 0});
