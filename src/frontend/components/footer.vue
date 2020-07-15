@@ -23,6 +23,7 @@
       <div class="column">
         <ul>
           <li><a href="/about-storage-guy/productivity-equipment/">Productivity Equipment</a></li>
+          <li><a href="/about/storage-guy/sponsored-reviewes/">Sponsored Reviews</a></li>
         </ul>
       </div>
       <div class="column has-text-centered is-one-third">
