@@ -20,7 +20,11 @@
           </div>
         </div>
       </div>
-      <div class="column"></div>
+      <div class="column">
+        <ul>
+          <li><a href="/about-storage-guy/productivity-equipment/">Productivity Equipment</a></li>
+        </ul>
+      </div>
       <div class="column has-text-centered is-one-third">
         <p>
             2020 © <strong>The Storage Guy – <a href="https://www.perlur.cloud/">PERLUR Group</a></strong><br>
