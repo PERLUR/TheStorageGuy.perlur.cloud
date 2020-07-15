@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <div class="column">
+      <div class="column has-text-left">
         <ul>
           <li><a href="/about-storage-guy/productivity-equipment/">Productivity Equipment</a></li>
           <li><a href="/about/storage-guy/sponsored-reviewes/">Sponsored Reviews</a></li>
