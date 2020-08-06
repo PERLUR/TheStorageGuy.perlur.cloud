@@ -16,7 +16,7 @@
     "babel-eslint": "^10.0.3",
     "buefy": "^0.8.20",
     "core-js": "^3.6.5",
-    "eslint": "^6.7.2",
+    "eslint": "^7.6.0",
     "eslint-plugin-vue": "^6.1.2",
     "node-sass": "^4.14.1",
     "nuxt": "^2.13.3",
