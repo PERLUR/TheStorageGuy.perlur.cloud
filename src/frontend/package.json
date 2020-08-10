@@ -12,7 +12,7 @@
     "@babel/runtime-corejs3": "latest",
     "@vue/cli-plugin-babel": "~4.4.1",
     "@vue/cli-plugin-eslint": "~4.4.1",
-    "@vue/cli-service": "~4.4.1",
+    "@vue/cli-service": "~4.5.2",
     "babel-eslint": "^10.0.3",
     "buefy": "^0.8.20",
     "core-js": "^3.6.5",
