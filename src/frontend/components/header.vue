@@ -16,11 +16,14 @@
           <span><a class="navbar-item is-hoverable title is-4" href="/">Overview</a></span>
           <span><a class="navbar-item is-hoverable title is-4" href="/about-storage-guy/">About Storage Guy</a></span>
           <a class="navbar-item" href="https://twitter.com/LiberalMark">
-          <i class="fab fa-twitter-square title"></i>
+            <i class="fab fa-twitter-square title"></i>
           </a>
           <a class="navbar-item" href="https://www.youtube.com/channel/UCp-grc_OkwssH4XcSU7Lo/">
-          <i class="fab fa-youtube-square title"></i>
+            <i class="fab fa-youtube-square title"></i>
           </a>
+          <a class="navbar-item" href="https://discord.gg/mn8d7k2">
+	    <i class="fab fa-discord title"></i>
+	  </a>
         </div>
       </div>
     </nav>
