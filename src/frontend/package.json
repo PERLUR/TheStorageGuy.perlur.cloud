@@ -6,7 +6,8 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt build && nuxt export"
+    "generate": "nuxt build && nuxt export",
+    "serve": "nuxt serve"
   },
   "devDependencies": {
     "@babel/runtime-corejs3": "latest",

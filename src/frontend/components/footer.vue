@@ -3,11 +3,18 @@
     <div class="columns">
       <div class="column is-one-half">
         <h2 class="title has-text-centered has-text-white is-2">Partners</h2>
-        <div class="columns is-variable is-8">
+        <div class="columns is-variable is-1">
           <div class="column">
             <figure class="image">
               <a href="https://www.perlur.cloud/">
                 <img class="logo" :src="PERLURLogoSquareWhiteSVG" />
+              </a>
+            </figure>
+          </div>
+          <div class="column">
+            <figure class="image">
+              <a href="https://dolca.2ndlayer.eu/">
+                <img class="logo" :src="DOLCALogoSquareWhiteSVG" />
               </a>
             </figure>
           </div>
@@ -46,7 +53,8 @@ export default {
     return {
       PERLURLogoSquareWhiteSVG: require('~/assets/images/PERLUR_Group_Logo_White.svg'),
       LayerLogoSquareWhiteSVG: require('~/assets/images/2nd_Layer_Logo_Square_White.svg'),
-      TheStorageGuyColorSVG: require('~/assets/images/The_Storage_Guy_No_Border_Transparent_Logo.svg')
+      TheStorageGuyColorSVG: require('~/assets/images/The_Storage_Guy_No_Border_Transparent_Logo.svg'),
+      DOLCALogoSquareWhiteSVG: require('~/assets/images/DOLCA_Logo_White.svg')
     }
   }
 };
