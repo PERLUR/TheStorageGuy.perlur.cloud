@@ -18,7 +18,7 @@
           <a class="navbar-item" href="https://twitter.com/LiberalMark">
             <i class="fab fa-twitter-square title"></i>
           </a>
-          <a class="navbar-item" href="https://www.youtube.com/channel/UCp-grc_OkwssH4XcSU7Lo/">
+          <a class="navbar-item" href="https://www.youtube.com/channel/UCp-grc_OkwssH4XcSU7Loyw/">
             <i class="fab fa-youtube-square title"></i>
           </a>
           <a class="navbar-item" href="https://discord.gg/mn8d7k2">
