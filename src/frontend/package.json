@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@babel/runtime-corejs3": "latest",
-    "@vue/cli-plugin-babel": "~4.5.3",
+    "@vue/cli-plugin-babel": "~4.5.7",
     "@vue/cli-plugin-eslint": "~4.5.3",
     "@vue/cli-service": "~4.5.2",
     "babel-eslint": "^10.0.3",
