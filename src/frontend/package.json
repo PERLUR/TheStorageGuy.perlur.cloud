@@ -24,7 +24,7 @@
     "nuxt-buefy": "^0.4.0",
     "@nuxtjs/sitemap": "2.4.0",
     "@nuxtjs/google-analytics": "^2.3.0",
-    "sass-loader": "^10.0.1",
+    "sass-loader": "^10.0.3",
     "vue": "^2.6.11",
     "vue-router": "^3.4.6",
     "vue-template-compiler": "^2.6.11"
