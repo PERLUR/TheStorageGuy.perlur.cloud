@@ -16,7 +16,7 @@
     "@vue/cli-plugin-babel": "~4.5.9",
     "babel-eslint": "^10.0.3",
     "buefy": "^0.9.4",
-    "core-js": "^3.8.0",
+    "core-js": "^3.8.1",
     "eslint": "^7.14.0",
     "eslint-plugin-vue": "^7.2.0",
     "node-sass": "^5.0.0",
