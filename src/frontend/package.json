@@ -20,7 +20,7 @@
     "eslint": "^7.15.0",
     "eslint-plugin-vue": "^7.2.0",
     "node-sass": "^5.0.0",
-    "nuxt": "^2.14.10",
+    "nuxt": "^2.14.11",
     "nuxt-buefy": "^0.4.4",
     "@nuxtjs/sitemap": "2.4.0",
     "@nuxtjs/google-analytics": "^2.3.0",
