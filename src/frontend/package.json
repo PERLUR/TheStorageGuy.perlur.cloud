@@ -18,7 +18,7 @@
     "buefy": "^0.9.4",
     "core-js": "^3.8.1",
     "eslint": "^7.16.0",
-    "eslint-plugin-vue": "^7.3.0",
+    "eslint-plugin-vue": "^7.4.0",
     "node-sass": "^5.0.0",
     "nuxt": "^2.14.12",
     "nuxt-buefy": "^0.4.4",
