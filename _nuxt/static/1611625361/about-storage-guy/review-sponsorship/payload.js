@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/about-storage-guy/review-sponsorship", {data:[{}],fetch:[],mutations:void 0});
