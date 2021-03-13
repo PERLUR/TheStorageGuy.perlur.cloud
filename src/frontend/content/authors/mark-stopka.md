@@ -1,5 +1,10 @@
 ---
 title: Mark Stopka
+twitter: https://twitter.com/LiberalMark
+youtube: https://www.youtube.com/channel/UCp-grc_OkwssH4XcSU7Loyw
+facebook: https://www.facebook.com/markstopka88/
+linkedin: https://www.linkedin.com/in/markstopka/
+website: https://www.perlur.cloud/
 ---
 **Mark Stopka** is our Managing Partner and strategist. It is his role to set a direction for entire group to follow. Mark has 10 years of professional experience from IT&T vertical, where he served leading companies in IT&T, finance and pharma verticals. His skills include strategic thinking, governance, IT&T infrastructure architecture and engineering as well as DevOps.
 
