@@ -1,21 +1,78 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: 2nd-Layer/TheStorageGuy.2ndlayer.eu
   branch: master
+  squash_merges: true
+  commit_messages:
+    create: Create {{collection}} "{{slug}}"
+    update: Update {{collection}} "{{slug}}"
+    delete: Delete {{collection}} "{{slug}}"
+    uploadMedia: Upload "{{path}}"
+    deleteMedia: Delete "{{path}}"
+    openAuthoring: '{{message}}'
+  use_graphql: true # Experimental
 
-media_folder: static/img
+publish_mode: editorial_workflow
+
+i18n:
+  structure: multiple_folders
+  locales: [en, cs, sk]
+  default_locale: en
+
+media_folder: src/frontend/static/img
 public_folder: /img
 
+slug:
+  encoding: ascii
+  clean_accents: true
+  sanitize_replacement: "-"
+
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: 'author'
+    label: 'Authors'
+    folder: 'src/frontend/content/authors/'
+    create: true
+    i18n: true
+    slug: '{{slug}}'
+    fields:
+      - label: Name
+        name: title
+        widget: string
+        required: true
+        i18n: duplicate
+        hint: >-
+          The name of the author
+      - { label: 'Twitter', name: 'twitter', widget: 'string', required: false, i18n: duplicate }
+      - { label: 'YouTube', name: 'youtube', widget: 'string', required: false, i18n: duplicate }
+      - { label: 'Facebook', name: 'facebook', widget: 'string', required: false, i18n: duplicate }
+      - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false, i18n: duplicate }
+      - { label: 'Website', name: 'website', widget: 'string', required: false, i18n: duplicate }
+      - label: Content
+        name: body
+        widget: markdown
+        required: true
+        i18n: true
+        hint: Author bio
+
+  - name: 'post'
+    label: 'Posts'
+    folder: 'src/frontend/content/posts/'
     format: 'frontmatter'
     create: true
+    i18n: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Title', name: 'title', widget: 'string', i18n: true }
+      - label: 'Author'
+        name: 'author'
+        widget: 'relation'
+        collection: author
+        required: true
+        value_field: slug
+        search_fields: ['title']
+        display_fields: ['title']
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', i18n: duplicate }
+      - { label: 'Description', name: 'description', widget: 'markdown', i18n: true }
+      - { label: 'Body', name: 'body', widget: 'markdown', i18n: true }
