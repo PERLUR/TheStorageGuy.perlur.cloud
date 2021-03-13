@@ -12,7 +12,6 @@ backend:
     openAuthoring: '{{message}}'
   use_graphql: true # Experimental
 
-
 publish_mode: editorial_workflow
 
 i18n:
@@ -33,25 +32,27 @@ collections:
     label: 'Authors'
     folder: 'src/frontend/content/authors/'
     create: true
+    i18n: true
     slug: '{{slug}}'
     fields:
       - label: Name
         name: title
         widget: string
         required: true
+        i18n: duplicate
         hint: >-
           The name of the author
-      - { label: 'Twitter', name: 'twitter', widget: 'string', required: false }
-      - { label: 'YouTube', name: 'youtube', widget: 'string', required: false }
-      - { label: 'Facebook', name: 'facebook', widget: 'string', required: false }
-      - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false}
-      - { label: 'Website', name: 'website', widget: 'string', required: false }
+      - { label: 'Twitter', name: 'twitter', widget: 'string', required: false, i18n: duplicate }
+      - { label: 'YouTube', name: 'youtube', widget: 'string', required: false, i18n: duplicate }
+      - { label: 'Facebook', name: 'facebook', widget: 'string', required: false, i18n: duplicate }
+      - { label: 'LinkedIn', name: 'linkedin', widget: 'string', required: false, i18n: duplicate }
+      - { label: 'Website', name: 'website', widget: 'string', required: false, i18n: duplicate }
       - label: Content
         name: body
         widget: markdown
         required: true
-        hint: Author bio
         i18n: true
+        hint: Author bio
 
   - name: 'post'
     label: 'Posts'
