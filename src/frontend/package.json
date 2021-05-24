@@ -20,7 +20,7 @@
     "eslint": "^7.27.0",
     "eslint-plugin-vue": "^7.8.0",
     "node-sass": "^5.0.0",
-    "nuxt": "^2.15.3",
+    "nuxt": "^2.15.6",
     "@nuxt/content": "^1.5.0",
     "nuxt-buefy": "^0.4.4",
     "@nuxtjs/feed": "^2.0.0",
