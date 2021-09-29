@@ -18,7 +18,7 @@
     "buefy": "^0.9.10",
     "core-js": "^3.18.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^7.8.0",
+    "eslint-plugin-vue": "^7.18.0",
     "node-sass": "^5.0.0",
     "nuxt": "^2.15.8",
     "@nuxt/content": "^1.5.0",
@@ -27,9 +27,10 @@
     "@nuxtjs/sitemap": "2.4.0",
     "@nuxtjs/google-analytics": "^2.3.0",
     "sass-loader": "^10.1.1",
-    "vue": "^2.6.11",
+    "vue": "^2.6.14",
     "vue-router": "^3.5.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
     "root": true,
