@@ -24,7 +24,7 @@
     "css-loader": "^5.2.7",
     "eslint": "^8.0.0",
     "eslint-plugin-vue": "^7.19.1",
-    "node-sass": "^5.0.0",
+    "node-sass": "^8.0.0",
     "nuxt": "^2.15.8",
     "nuxt-buefy": "^0.4.10",
     "sass-loader": "^10.1.1",
