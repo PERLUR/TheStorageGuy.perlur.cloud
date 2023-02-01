@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@babel/runtime-corejs3": "latest",
-    "@nuxt/content": "^1.5.0",
+    "@nuxt/content": "^2.4.3",
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/google-analytics": "^2.3.0",
     "@nuxtjs/sitemap": "2.4.0",
