@@ -20,7 +20,7 @@
     "@vue/cli-service": "~4.5.13",
     "babel-eslint": "^10.0.3",
     "buefy": "^0.9.10",
-    "core-js": "^3.18.2",
+    "core-js": "^3.29.0",
     "css-loader": "^5.2.7",
     "eslint": "^8.0.0",
     "eslint-plugin-vue": "^7.19.1",
