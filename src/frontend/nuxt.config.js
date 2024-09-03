@@ -14,7 +14,7 @@ export default {
     }]
   ],
   sitemap: {
-    hostname: 'https://thestorageguy.2ndlayer.eu',
+    hostname: 'https://thestorageguy.perlur.cloud',
     gzip: true,
   },
   build: {
