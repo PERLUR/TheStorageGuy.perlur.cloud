@@ -16,7 +16,7 @@
     "@nuxtjs/google-analytics": "^2.3.0",
     "@nuxtjs/sitemap": "2.4.0",
     "@vue/cli-plugin-babel": "~5.0.8",
-    "@vue/cli-plugin-eslint": "~4.5.7",
+    "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
     "babel-eslint": "^10.0.3",
     "buefy": "^0.9.29",
