@@ -23,7 +23,7 @@
     "core-js": "^3.18.2",
     "css-loader": "^5.2.7",
     "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^7.19.1",
+    "eslint-plugin-vue": "^9.28.0",
     "node-sass": "^9.0.0",
     "nuxt": "^3.12.4",
     "nuxt-buefy": "^0.4.29",
