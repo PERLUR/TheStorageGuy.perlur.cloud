@@ -14,7 +14,7 @@
     "@nuxt/content": "^2.13.2",
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/google-analytics": "^2.3.0",
-    "@nuxtjs/sitemap": "2.4.0",
+    "@nuxtjs/sitemap": "6.0.1",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-plugin-eslint": "~5.0.8",
     "@vue/cli-service": "~5.0.8",
