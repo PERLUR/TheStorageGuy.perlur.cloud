@@ -28,7 +28,7 @@
     "nuxt": "^3.12.4",
     "nuxt-buefy": "^0.4.29",
     "sass-loader": "^10.1.1",
-    "vue": "^2.6.14",
+    "vue": "^3.5.6",
     "vue-router": "^3.5.3",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
